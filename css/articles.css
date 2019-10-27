@@ -7,14 +7,12 @@
     box-sizing: border-box;
 }
 
-
-
 html {
     scroll-behavior: smooth;
 }
 
 
-/*navbar with the responsive menu starts here*/
+/*navbar starts here*/
 .header {
     height: 100px;
     background: #25282a;
@@ -74,6 +72,8 @@ html {
     z-index: -1111;
 }
 
+
+/*the main content starts here*/
 .content {
     padding: 0 20px;
 }
@@ -88,8 +88,12 @@ html {
     text-align: justify;
 }
 
+.maintitle {
+    font-family: "roboto black", sans-serif;
+    text-align: center;
+}
 
-
+/*This is the responsive menu*/
 @media screen and (max-width:800px) {
 
     .show-menu-btn,
@@ -144,11 +148,9 @@ html {
 }
 
 .wrapper {
-    margin: 0 auto 0 auto;
-    padding: 5px;
+margin: 0 auto 0 auto;
+padding: 5px;
 
 }
-
-
 
 
