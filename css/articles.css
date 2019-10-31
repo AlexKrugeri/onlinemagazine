@@ -93,6 +93,31 @@ html {
     text-align: center;
 }
 
+h1 {
+    font-family: "roboto black", sans-serif;
+    font-size: 45px;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.articleteaser_container {
+    font-family: "roboto light", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teaser_text {
+    font-size: 20px;
+}
+
+.teaser_section {
+    width: 100%;
+}
+
 /*This is the responsive menu*/
 @media screen and (max-width:800px) {
 
@@ -148,9 +173,6 @@ html {
 }
 
 .wrapper {
-margin: 0 auto 0 auto;
-padding: 5px;
+    margin: 0 auto 0 auto;
 
 }
-
-

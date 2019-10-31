@@ -14,6 +14,16 @@ html {
 }
 
 
+.headline {
+    font-size: 9vw;
+    font-family: "roboto black", sans-serif;
+      position: absolute;
+    color: #25282a;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
 /*navbar with the responsive menu starts here*/
 .header {
     height: 100px;
@@ -90,6 +100,7 @@ html {
 
 
 
+
 @media screen and (max-width:800px) {
 
     .show-menu-btn,
@@ -130,6 +141,7 @@ html {
 
 /* here starts the footer*/
 .footer {
+    margin-bottom: 1px;
     background-color: #25282a;
     height: 50px;
     display: flex;
@@ -145,10 +157,44 @@ html {
 
 .wrapper {
     margin: 0 auto 0 auto;
-    padding: 5px;
-
 }
 
 
 
 
+.head_img {
+    max-width: 100%;
+    position: relative;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.banner_container {
+    overflow: hidden;
+    max-height: 640px;
+    position: relative;
+}
+
+.header_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.header_text {
+    font-family: "roboto black", sans-serif;
+    font-size: 6vw;
+    color: #25282a;
+}
+
+.header_textp {
+    font-family: "roboto light", sans-serif;
+    font-size: 6vw;
+    color: #25282a
+}
