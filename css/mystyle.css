@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto',
+sans-serif;
 
 
 html {
@@ -143,7 +144,6 @@ html {
 
 /* here starts the footer*/
 .footer {
-    margin-bottom: 1px;
     background-color: #25282a;
     height: 50px;
     display: flex;
@@ -152,7 +152,7 @@ html {
 }
 
 .ftxt {
-    font-size: 0.95em;
+    font-size: 15px;
     color: white;
     font-family: "roboto light";
 }
@@ -162,7 +162,7 @@ html {
 }
 
 h3 {
-    font-family:"roboto bold", sans-serif;
+    font-family: "roboto bold", sans-serif;
     font-weight: bold;
 }
 
@@ -181,8 +181,9 @@ h3 {
     max-height: 640px;
     position: relative;
 }
+
 .banner_container:after {
-       position: absolute;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -191,6 +192,7 @@ h3 {
     content: '';
     opacity: 0.6;
 }
+
 .header_container {
     position: absolute;
     top: 50%;
@@ -243,7 +245,7 @@ h3 {
 }
 
 .right_image {
-     padding: 16px 24px 16px 24px;
+    padding: 16px 24px 16px 24px;
     max-width: 320px;
     text-align: center;
 }
@@ -255,7 +257,7 @@ h3 {
 }
 
 .intro_container {
-     text-align: center;
+    text-align: center;
     margin: 25px 25px 25px 25px;
 }
 
@@ -269,7 +271,7 @@ h3 {
 }
 
 .intro_head {
-      font-size: 50px;
+    font-size: 50px;
     font-family: "roboto black", sans-serif;
 }
 

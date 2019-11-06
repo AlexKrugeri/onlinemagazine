@@ -6,7 +6,10 @@
     border: 0;
     box-sizing: border-box;
 }
-font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto',
+sans-serif;
+
 html {
     scroll-behavior: smooth;
 }
@@ -76,8 +79,14 @@ html {
 
 /*the main content starts here*/
 .content {
-    padding: 0 20px;
+    padding: 0 20;
+     margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
+
 
 .content img {
     width: 100%;
@@ -168,7 +177,7 @@ h1 {
 }
 
 .ftxt {
-    font-size: 0.95em;
+      font-size: 15px;
     color: white;
     font-family: "roboto light";
 }
@@ -179,6 +188,22 @@ h1 {
 }
 
 .logolink {
-       text-decoration: none;
+    text-decoration: none;
     color: #d9d9d6;
+}
+
+.article_img {
+    max-width: 100%;
+}
+
+.link_text {
+    text-decoration: none;
+    color: darkslateblue;
+    margin-bottom: 20px;
+}
+
+.link_text:hover {
+    text-decoration: none;
+    color: red;
+    margin-bottom: 20px;
 }

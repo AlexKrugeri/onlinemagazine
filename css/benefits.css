@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto',
+sans-serif;
 
 html {
     scroll-behavior: smooth;
@@ -150,7 +151,7 @@ h3 {
 }
 
 .ftxt {
-    font-size: 0.95em;
+    font-size: 15px;
     color: white;
     font-family: "roboto light";
 }
@@ -160,6 +161,28 @@ h3 {
 }
 
 .logolink {
-       text-decoration: none;
+    text-decoration: none;
     color: #d9d9d6;
+}
+
+.benefits_headline {
+    font-size: 50px;
+    font-family: "roboto black", sans-serif;
+}
+
+.article {
+    font-family: "roboto light", sans-serif;
+  text-align: center;
+    position: relative;
+}
+
+.main {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bg {
+    max-width: 300px;
 }
