@@ -172,7 +172,7 @@ h3 {
     height: 100%;
     background: linear-gradient(135deg, #3c6f71 0%, #ffffff 60%);
     content: '';
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .header_text {
@@ -223,18 +223,16 @@ iframe {
 .subline {
     font-size: 30px;
     font-family: "roboto bold", "arial bold", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
 .main_cont {
+    font-family: "roboto", "arial", sans-serif;
     margin-left: 50px;
     margin-right: 50px;
-}
-
-.bw_p {
-    font-family: "roboto light", "arial narrow", sans-serif;
-    font-size: 18px;
-    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -249,4 +247,40 @@ iframe {
         margin-right: 20px;
         padding: 0;
     }
+}
+
+.content_container {
+    margin: 20px auto 20px auto;
+    width: 80%;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.workout_table {
+    text-align: center;
+    font-family: "roboto", "arial", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bw_p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+
 }
