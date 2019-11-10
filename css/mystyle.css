@@ -7,14 +7,9 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto',
-sans-serif;
-
-
 html {
     scroll-behavior: smooth;
 }
-
 
 .headline {
     font-size: 9vw;
@@ -23,10 +18,8 @@ html {
     color: #25282a;
     text-align: center;
     margin-top: 40px;
-
 }
 
-/*navbar with the responsive menu starts here*/
 .header {
     height: 100px;
     background: #25282a;
@@ -100,10 +93,7 @@ html {
     text-align: justify;
 }
 
-
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
 
     .show-menu-btn,
     .hide-menu-btn {
@@ -138,11 +128,8 @@ html {
     #check:checked ~ .menu {
         right: 0;
     }
-
 }
 
-
-/* here starts the footer*/
 .footer {
     background-color: #25282a;
     height: 50px;
@@ -173,13 +160,16 @@ h3 {
 
 .img {
     max-width: 100%;
-
 }
 
 .banner_container {
     overflow: hidden;
     max-height: 640px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner_container:after {
@@ -261,10 +251,6 @@ h3 {
     margin: 25px 25px 25px 25px;
 }
 
-
-
-
-
 .intro_text {
     font-family: "roboto light", sans-serif;
     font-size: 30px;
@@ -275,16 +261,10 @@ h3 {
     font-family: "roboto black", sans-serif;
 }
 
-.logonav {
-    font-size:
-}
-
 .logolink {
     text-decoration: none;
     color: #d9d9d6;
 }
-
-
 
 .img_texth {
     font-weight: bold;

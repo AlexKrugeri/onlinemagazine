@@ -7,15 +7,10 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto',
-sans-serif;
-
 html {
     scroll-behavior: smooth;
 }
 
-
-/*navbar starts here*/
 .header {
     height: 100px;
     background: #25282a;
@@ -76,17 +71,12 @@ html {
     z-index: -1111;
 }
 
-
-/*the main content starts here*/
 .content {
-    padding: 0 20;
-     margin-top: 40px;
+    margin-top: 40px;
     margin-bottom: 100px;
     margin-left: 50px;
     margin-right: 50px;
-
 }
-
 
 .content img {
     width: 100%;
@@ -108,7 +98,6 @@ h1 {
     font-size: 45px;
     margin-top: 30px;
     display: flex;
-
 }
 
 .articleteaser_container {
@@ -128,8 +117,7 @@ h1 {
     width: 100%;
 }
 
-/*This is the responsive menu*/
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
 
     .show-menu-btn,
     .hide-menu-btn {
@@ -147,6 +135,7 @@ h1 {
         padding: 80px 0;
         line-height: normal;
         transition: 0.7s;
+        z-index: 99;
     }
 
     .menu a {
@@ -163,11 +152,8 @@ h1 {
     #check:checked ~ .menu {
         right: 0;
     }
-
 }
 
-
-/* here starts the footer*/
 .footer {
     background-color: #25282a;
     height: 50px;
@@ -177,14 +163,13 @@ h1 {
 }
 
 .ftxt {
-      font-size: 15px;
+    font-size: 15px;
     color: white;
     font-family: "roboto light";
 }
 
 .wrapper {
     margin: 0 auto 0 auto;
-
 }
 
 .logolink {
@@ -206,4 +191,8 @@ h1 {
     text-decoration: none;
     color: red;
     margin-bottom: 20px;
+}
+
+.by {
+    color: burlywood;
 }
