@@ -7,16 +7,10 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto',
-sans-serif;
-
-
 html {
     scroll-behavior: smooth;
 }
 
-
-/*navbar with the responsive menu starts here*/
 .header {
     height: 100px;
     background: #25282a;
@@ -81,10 +75,7 @@ html {
     padding: 0 20px;
 }
 
-
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
 
     .show-menu-btn,
     .hide-menu-btn {
@@ -119,11 +110,8 @@ html {
     #check:checked ~ .menu {
         right: 0;
     }
-
 }
 
-
-/* here starts the footer*/
 .footer {
     background-color: #25282a;
     height: 50px;
@@ -146,7 +134,6 @@ h3 {
     font-family: "roboto bold", sans-serif;
     font-weight: bold;
 }
-
 
 .banner_container {
     overflow: hidden;
@@ -180,7 +167,6 @@ h3 {
     font-size: 6vw;
     color: #ffffff;
     text-align: center;
-
 }
 
 .img {
@@ -193,12 +179,6 @@ iframe {
     margin-top: 40px;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
 
 .header_container {
     position: absolute;
@@ -225,7 +205,6 @@ iframe {
     font-family: "roboto bold", "arial bold", sans-serif;
     margin-top: 20px;
     margin-bottom: 10px;
-
 }
 
 .main_cont {
@@ -240,6 +219,7 @@ iframe {
         width: 100%;
         height: 100%;
         margin: 0 auto;
+
     }
 
     .main_cont {
@@ -254,18 +234,21 @@ iframe {
     width: 80%;
 }
 
-table, td, th {
-  border: 1px solid #ddd;
-  text-align: left;
+table,
+td,
+th {
+    border: #ddd solid 1px;
+    text-align: left;
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-th, td {
-  padding: 15px;
+th,
+td {
+    padding: 15px;
 }
 
 .workout_table {
@@ -276,24 +259,23 @@ th, td {
 }
 
 .bw_p {
-font-size: 20px;
+    font-size: 20px;
     font-family: "roboto light", "arial narrow", sans-serif;
 }
 
 .link {
     text-decoration: none;
     color: blue;
-
 }
 
 .workout_table_text {
-     font-size: 20px;
+    font-size: 20px;
     font-family: "roboto light", "arial narrow", sans-serif;
     margin-top: 20px;
 }
 
 .workout_table_ex {
-     font-size: 18px;
+    font-size: 18px;
     font-family: "roboto light", "arial narrow", sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;

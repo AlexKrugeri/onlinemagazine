@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto',
-sans-serif;
-
 html {
     scroll-behavior: smooth;
 }
@@ -22,7 +19,6 @@ h3 {
     font-size: 25px;
 }
 
-/*navbar with the responsive menu starts here*/
 .header {
     height: 100px;
     background: #25282a;
@@ -103,7 +99,7 @@ h3 {
     font-family: "roboto black", "arial black", sans-serif;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
 
     .show-menu-btn,
     .hide-menu-btn {
@@ -138,11 +134,9 @@ h3 {
     #check:checked ~ .menu {
         right: 0;
     }
-
 }
 
 
-/* here starts the footer*/
 .footer {
     background-color: #25282a;
     height: 50px;
@@ -173,7 +167,7 @@ h3 {
 
 .article {
     font-family: "roboto light", sans-serif;
-  text-align: center;
+    text-align: center;
     position: relative;
 }
 
